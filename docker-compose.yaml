@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    image: pron1mo/crt:php
+
+  db:
+    image: postgres:11-alpine
+    
